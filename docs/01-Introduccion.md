@@ -23,27 +23,27 @@ Pasos:
 
 1. En Eclipse, ve a `Help → Install New Software…`.
 
-![Abrir ventana Install New Software en Eclipse](docs/assets/eclipse-install-adt01.png)
+![Abrir ventana Install New Software en Eclipse](assets/eclipse-install-adt01.png)
 
 2. En el campo **Work with**, pega la URL de los plugins oficiales:  
    `https://tools.hana.ondemand.com/latest/` 🌐
    > Esta URL siempre apunta a la versión más reciente compatible de ADT. Usar la última versión garantiza que tendrás todas las funcionalidades y soporte para ABAP Cloud.
 
-![Ventana Install New Software con URL de ADT en Eclipse](docs/assets/eclipse-install-adt02.png)
+![Ventana Install New Software con URL de ADT en Eclipse](assets/eclipse-install-adt02.png)
 
 3. Selecciona la opción **ABAP Development Tools (ADT)** ✅
    > Esto instalará todos los componentes necesarios: editores de clase, explorador de objetos, asistentes para crear paquetes, transportes y mucho más.
 
-![Seleccionamos la opcion ADT](docs/assets/eclipse-install-adt03.png)
+![Seleccionamos la opcion ADT](assets/eclipse-install-adt03.png)
 
 4. Haz clic en `Next → Finish`. Acepta las licencias y confirma que confías en el plugin cuando Eclipse lo pregunte ✔️
    > Eclipse necesita tu permiso para instalar software de terceros y asegurarse de que confías en el origen del plugin.
 
-![Seleccionamos la opcion ADT](docs/assets/eclipse-install-adt04.png)
+![Seleccionamos la opcion ADT](assets/eclipse-install-adt04.png)
 
 5. Espera a que se complete la instalación. Esto puede tardar unos minutos dependiendo de tu conexión.
 
-![Seleccionamos la opcion ADT](docs/assets/eclipse-install-adt05.png)
+![Seleccionamos la opcion ADT](assets/eclipse-install-adt05.png)
 
 6. Finalmente, haz clic en **Restart Now** 🔄
    > Eclipse se reiniciará para aplicar los cambios y cargar los nuevos plugins de ABAP. Después del reinicio, tu IDE estará listo para crear proyectos y conectarse a ABAP Cloud.
@@ -54,7 +54,7 @@ Pasos:
 
 - Ve a `Window → Perspective → Other → ABAP`
 
-![Abriendo perspectiva de ABAP en Eclipse](docs/assets/eclipse-install-adt06.png)
+![Abriendo perspectiva de ABAP en Eclipse](assets/eclipse-install-adt06.png)
 
 - ¡Listo! Eclipse ahora está preparado para trabajar con ABAP 🚀
 
@@ -69,13 +69,13 @@ Para poder trabajar con ABAP Cloud y conectar Eclipse, primero necesitamos una *
 - Ve a [SAP](https://www.sap.com/index.html).
   > Esta es la página oficial de SAP, donde se gestionan todas las cuentas y servicios en la nube. Pinchas en el icono del muñeco de la imagen para acceder a crear tu cuenta.
 
-![registrandose en sap](docs/assets/registro-sap-01.png)
+![registrandose en sap](assets/registro-sap-01.png)
 
 - Si ya tienes cuenta, simplemente inicia sesión con tus credenciales.
 - Si no tienes cuenta, haz clic en **“Cree su cuenta de SAP”** ✍️.
   > Al crear tu cuenta, SAP garantiza que tendrás acceso a servicios de prueba y a la plataforma BTP para desarrollo y aprendizaje.
 
-![registro en SAP](docs/assets/registro-sap-02.png)
+![registro en SAP](assets/registro-sap-02.png)
 
 - Ingresa tus datos personales (nombre, correo electrónico, contraseña, país, etc.) y acepta los términos y condiciones.
 - Verifica tu correo electrónico 📧 siguiendo el enlace que SAP enviará a tu bandeja de entrada.
@@ -106,8 +106,7 @@ Una vez creada tu cuenta SAP, el siguiente paso es configurar tu **entorno ABAP 
   > Ten en cuenta que esta cuenta tiene una duración limitada de **30 días**, ampliable hasta **90 días**.  
   > Si necesitas más tiempo, siempre puedes crear una nueva cuenta trial y disponer nuevamente de un periodo inicial de 30 días, prorrogable hasta 90 días.
 
-
-  ![dias de trial SAP BTP](docs/assets/registro-sap-03.png)
+  ![dias de trial SAP BTP](assets/registro-sap-03.png)
 
 - Todo lo que hagas puede **resguardarse y respaldarse** 💾, permitiéndote mantener tus desarrollos y reutilizarlos si decides crear otra cuenta en el futuro.
 
@@ -119,11 +118,11 @@ Una vez creada tu cuenta SAP, el siguiente paso es configurar tu **entorno ABAP 
 
 - Ingresa a tu cuenta de **SAP BTP** y dirígete a la sección **Boosters**.
 
-![seccion Boosters](docs/assets/registro-sap-04.png)
+![seccion Boosters](assets/registro-sap-04.png)
 
 - Busca la opción **ABAP** y haz clic en `Start` ⏳ para iniciar la creación de tu instancia.
 
-![creacion de instancia](docs/assets/registro-sap-05.png)
+![creacion de instancia](assets/registro-sap-05.png)
 
 - Durante este proceso, BTP configurará automáticamente tu entorno de desarrollo en la nube.
 - Una vez completada la creación, navega a **Subcuentas** para gestionar tu nueva instancia y acceder a las claves de servicio.
@@ -132,31 +131,31 @@ Una vez creada tu cuenta SAP, el siguiente paso es configurar tu **entorno ABAP 
 
 - Dentro de BTP, ve a **Instancias y suscripciones → Service Key → View**.
 
-![creacion de instancia](docs/assets/registro-sap-06.png)
+![creacion de instancia](assets/registro-sap-06.png)
 
 - Copia la **URL de conexión** o descarga el archivo **JSON** que contiene la información de la instancia. Para ello pulsa en instancias y le damos click a la flecha de la derecha.
 
-![instancias](docs/assets/registro-sap-07.png)
+![instancias](assets/registro-sap-07.png)
 
 - En el desplegable que sale en la derecha, le damos click a claves de servicios.
 
-![claves de servicios](docs/assets/registro-sap-08.png)
+![claves de servicios](assets/registro-sap-08.png)
 
 - Le damos a los 3 puntitos. Yo aconsejo que descargues el json, sino quieres copia la url, es suficiente.
 
-![tres puntitos](docs/assets/registro-sap-09.png)
+![tres puntitos](assets/registro-sap-09.png)
 
 - Le das ver y copia la primera linea. Necesitamos esa url para conectarlo con nuestro eclipse.
 
-![url](docs/assets/registro-sap-10.png)
+![url](assets/registro-sap-10.png)
 
 - En Eclipse, selecciona: `Nuevo proyecto → Proyecto de Cloud`.
 
-![eclipse sap cloud](docs/assets/sap-eclipse-01.png)
+![eclipse sap cloud](assets/sap-eclipse-01.png)
 
 - Pega la URL que copiamos desde el SAP BTP.
 
-![conectando eclipse con la url de SAP BTP](docs/assets/sap-eclipse-02.png)
+![conectando eclipse con la url de SAP BTP](assets/sap-eclipse-02.png)
 
 - Si no ves la opción de conectar, asegúrate de haber actualizado los **plugins ABAP Development Tools (ADT)** como se indicó en el Paso 1.
 - Inicia sesión con tus credenciales de SAP cuando Eclipse lo solicite para completar la autenticación.
@@ -165,7 +164,7 @@ Una vez creada tu cuenta SAP, el siguiente paso es configurar tu **entorno ABAP 
 
 - Haz clic en **Finish** ✅ para completar la configuración.
 
-![finalizando la conexion eclipse con la url de SAP BTP](docs/assets/sap-eclipse-03.png)
+![finalizando la conexion eclipse con la url de SAP BTP](assets/sap-eclipse-03.png)
 
 - Tu ambiente ABAP ahora está conectado y listo para trabajar.
 - Podrás **crear paquetes, clases, interfaces, tablas y otros objetos ABAP** directamente desde Eclipse 💻.
