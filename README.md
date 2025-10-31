@@ -50,7 +50,6 @@ abap-eclipse/
 └── resources/                  ← Enlaces, documentación y material adicional
 ```
 
-
 ---
 
 ## Índice de capítulos 📖
@@ -77,7 +76,3 @@ abap-eclipse/
 ---
 
 > Este es solo el comienzo. Cada capítulo te acercará más a dominar ABAP Cloud en Eclipse, entendiendo cómo se construyen aplicaciones modernas dentro del ecosistema SAP. ☁️⚙️
-
-```
-
-```
