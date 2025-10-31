@@ -48,6 +48,7 @@ abap-eclipse/
 ├── exercises/                  ← Ejercicios prácticos y retos
 ├── code-examples/              ← Ejemplos de código ABAP
 └── resources/                  ← Enlaces, documentación y material adicional
+```
 
 
 ---
@@ -76,4 +77,7 @@ abap-eclipse/
 ---
 
 > Este es solo el comienzo. Cada capítulo te acercará más a dominar ABAP Cloud en Eclipse, entendiendo cómo se construyen aplicaciones modernas dentro del ecosistema SAP. ☁️⚙️
+
+```
+
 ```
