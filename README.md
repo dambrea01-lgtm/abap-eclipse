@@ -54,8 +54,8 @@ abap-eclipse/
 
 ## Índice de capítulos 📖
 
-1. [Bienvenido](docs/01-bienvenido.md) 📝 – Introducción al proyecto y motivación.
-2. Próximamente: **...**
+1. [Bienvenido](docs/01-Introduccion.md) 📝 – Configuración inicial de ABAP Cloud en Eclipse ☁️💻.
+2. Próximamente: **Hola Mundo con ABAP, nuestro primer ABAP**
 
 > Cada capítulo combina teoría y práctica, con ejemplos reales desarrollados directamente en el entorno Eclipse..
 
