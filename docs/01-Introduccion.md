@@ -23,27 +23,27 @@ Pasos:
 
 1. En Eclipse, ve a `Help → Install New Software…`.
 
-![Abrir ventana Install New Software en Eclipse](assets/eclipse-install-adt01.png)
+![Abrir ventana Install New Software en Eclipse](assets/install-eclipse-adt01.png)
 
 2. En el campo **Work with**, pega la URL de los plugins oficiales:  
    `https://tools.hana.ondemand.com/latest/` 🌐
    > Esta URL siempre apunta a la versión más reciente compatible de ADT. Usar la última versión garantiza que tendrás todas las funcionalidades y soporte para ABAP Cloud.
 
-![Ventana Install New Software con URL de ADT en Eclipse](assets/eclipse-install-adt02.png)
+![Ventana Install New Software con URL de ADT en Eclipse](assets/install-eclipse-adt02.png)
 
 3. Selecciona la opción **ABAP Development Tools (ADT)** ✅
    > Esto instalará todos los componentes necesarios: editores de clase, explorador de objetos, asistentes para crear paquetes, transportes y mucho más.
 
-![Seleccionamos la opcion ADT](assets/eclipse-install-adt03.png)
+![Seleccionamos la opcion ADT](assets/install-eclipse-adt03.png)
 
 4. Haz clic en `Next → Finish`. Acepta las licencias y confirma que confías en el plugin cuando Eclipse lo pregunte ✔️
    > Eclipse necesita tu permiso para instalar software de terceros y asegurarse de que confías en el origen del plugin.
 
-![Seleccionamos la opcion ADT](assets/eclipse-install-adt04.png)
+![Seleccionamos la opcion ADT](assets/install-eclipse-adt04.png)
 
 5. Espera a que se complete la instalación. Esto puede tardar unos minutos dependiendo de tu conexión.
 
-![Seleccionamos la opcion ADT](assets/eclipse-install-adt05.png)
+![Seleccionamos la opcion ADT](assets/install-eclipse-adt05.png)
 
 6. Finalmente, haz clic en **Restart Now** 🔄
    > Eclipse se reiniciará para aplicar los cambios y cargar los nuevos plugins de ABAP. Después del reinicio, tu IDE estará listo para crear proyectos y conectarse a ABAP Cloud.
@@ -54,7 +54,7 @@ Pasos:
 
 - Ve a `Window → Perspective → Other → ABAP`
 
-![Abriendo perspectiva de ABAP en Eclipse](assets/eclipse-install-adt06.png)
+![Abriendo perspectiva de ABAP en Eclipse](assets/install-eclipse-adt06.png)
 
 - ¡Listo! Eclipse ahora está preparado para trabajar con ABAP 🚀
 
