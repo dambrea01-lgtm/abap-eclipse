@@ -55,7 +55,7 @@ abap-eclipse/
 ## Índice de capítulos 📖
 
 1. [Bienvenido](docs/01-Introduccion.md) 📝 – Configuración inicial de ABAP Cloud en Eclipse ☁️💻.
-2. Próximamente: **Hola Mundo con ABAP, nuestro primer ABAP**
+2. Próximamente: **...**
 
 > Cada capítulo combina teoría y práctica, con ejemplos reales desarrollados directamente en el entorno Eclipse..
 
@@ -71,7 +71,7 @@ abap-eclipse/
 
 ## Próximos pasos 🚀
 
-1. Instalar y configurar Eclipse con ABAP Development Tools (ADT).
+2. Crear un proyecto ABAP con Eclipse. Un Hola Mundo con ABAP, nuestro primer ABAP.
 
 ---
 
