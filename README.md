@@ -8,6 +8,24 @@ Aquí no solo seguiremos un tutorial, sino que **exploraremos juntos cómo traba
 
 ---
 
+## Índice de capítulos 📖
+
+### 1. [☁️Configuración inicial de ABAP Cloud en Eclipse](docs/01-Introduccion.md)
+
+- [💻 Paso 1: Preparar Eclipse]
+  - 1️⃣ Instalar Eclipse
+  - 2️⃣ Agregar los plugins de ABAP
+  - 3️⃣ Abrir la perspectiva ABAP
+- [🌐 Paso 2: Crear tu cuenta SAP]
+  - 1️⃣ Registrarte en SAP
+  - 2️⃣ Configurar tu cuenta ABAP Cloud
+- [⚡ Paso 3: Crear y conectar tu ambiente ABAP en Eclipse]
+  - 1️⃣ Crear una instancia ABAP en BTP mediante Boosters
+  - 2️⃣ Conectar tu instancia con Eclipse
+  - 3️⃣ Finalizar la conexión y verificar
+
+---
+
 ## ¿Qué aprenderemos? 💻
 
 El objetivo de este proyecto es que **comprendas cómo desarrollar en ABAP Cloud usando Eclipse (ADT)**, abordando tanto los fundamentos como las prácticas recomendadas:
@@ -49,15 +67,6 @@ abap-eclipse/
 ├── code-examples/              ← Ejemplos de código ABAP
 └── resources/                  ← Enlaces, documentación y material adicional
 ```
-
----
-
-## Índice de capítulos 📖
-
-1. [Bienvenido](docs/01-Introduccion.md) 📝 – Configuración inicial de ABAP Cloud en Eclipse ☁️💻.
-2. Próximamente: **...**
-
-> Cada capítulo combina teoría y práctica, con ejemplos reales desarrollados directamente en el entorno Eclipse..
 
 ---
 
