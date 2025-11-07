@@ -1,6 +1,7 @@
 # Capítulo 1: Configuración inicial de ABAP Cloud en Eclipse ☁️💻
 
-[↩️ Volver al inicio](../README.md)
+| [↩️ Volver al inicio](../README.md) |
+| :---------------------------------: |
 
 ---
 
@@ -8,6 +9,16 @@ Bienvenido a este viaje por **ABAP Cloud con Eclipse**.
 En este capítulo vamos a **explorar juntos** cómo crear tu cuenta trial gratuita, configurar Eclipse con **ABAP Development Tools (ADT)** y dejar todo listo para tus primeros proyectos.
 
 > Lo mejor: ¡esta cuenta será completamente gratis! 🆓
+
+---
+
+# 📚 Índice del Capítulo
+
+| Sección                                                     | Descripción                                                                                     |
+| :---------------------------------------------------------- | :---------------------------------------------------------------------------------------------- |
+| 💻 **Paso 1: Preparar Eclipse**                             | Instalación de Eclipse y configuración de los plugins de ABAP Development Tools (ADT).          |
+| 🌐 **Paso 2: Crear tu cuenta SAP**                          | Cómo registrarte en SAP y activar tu entorno ABAP Cloud en la SAP Business Technology Platform. |
+| ⚡ **Paso 3: Crear y conectar tu ambiente ABAP en Eclipse** | Creación de la instancia ABAP en la nube y conexión con Eclipse.                                |
 
 ---
 
@@ -170,9 +181,19 @@ Una vez creada tu cuenta SAP, el siguiente paso es configurar tu **entorno ABAP 
 
 ![finalizando la conexion eclipse con la url de SAP BTP](assets/sap-eclipse-03.png)
 
-- Tu ambiente ABAP ahora está conectado y listo para trabajar.
-- Podrás **crear paquetes, clases, interfaces, tablas y otros objetos ABAP** directamente desde Eclipse 💻.
-- Tip: Mantén a mano la **Service Key**; si necesitas reconectar desde otra máquina o restaurar la instancia, podrás reutilizarla fácilmente 🔄.
+- Tu ambiente ABAP ahora está conectado y listo para trabajar. Tiene que salirte en tu IDE de Eclipse de esta forma:
+
+![finalizando la conexion eclipse con la url de SAP BTP](assets/sap-eclipse-04.png)
+
+- En el caso de que no tengas esta perspectiva, esta ventana y no ves estos objetos como yo, primero debes de abrir la perspectiva de ABAP 🧩. ¿Cómo lo hacemos?, de esta forma:
+
+👉 Window → Open Perspective → ABAP
+
+![finalizando la conexion eclipse con la url de SAP BTP](assets/sap-eclipse-05.png)
+
+- Y listo, ahora podrás **crear paquetes, clases, interfaces, tablas y otros objetos ABAP** directamente desde Eclipse 💻.
+
+💡 **Tip**: Mantén a mano la **Service Key**; si necesitas reconectar desde otra máquina o restaurar la instancia, podrás reutilizarla fácilmente 🔄.
 
 ---
 
@@ -184,3 +205,8 @@ Ahora tienes:
 - Un ambiente ABAP Cloud conectado y listo para empezar
 
 > En los próximos capítulos aprenderemos a **crear paquetes, clases y programar ABAP paso a paso** 🏆
+
+---
+
+| [↩️ Volver al inicio](../README.md) |
+| :---------------------------------: |

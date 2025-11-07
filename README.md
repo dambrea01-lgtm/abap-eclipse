@@ -12,17 +12,11 @@ Aquí no solo seguiremos un tutorial, sino que **exploraremos juntos cómo traba
 
 ### 1. [☁️Configuración inicial de ABAP Cloud en Eclipse](docs/01-Introduccion.md)
 
-- [💻 Paso 1: Preparar Eclipse]
-  - 1️⃣ Instalar Eclipse
-  - 2️⃣ Agregar los plugins de ABAP
-  - 3️⃣ Abrir la perspectiva ABAP
-- [🌐 Paso 2: Crear tu cuenta SAP]
-  - 1️⃣ Registrarte en SAP
-  - 2️⃣ Configurar tu cuenta ABAP Cloud
-- [⚡ Paso 3: Crear y conectar tu ambiente ABAP en Eclipse]
-  - 1️⃣ Crear una instancia ABAP en BTP mediante Boosters
-  - 2️⃣ Conectar tu instancia con Eclipse
-  - 3️⃣ Finalizar la conexión y verificar
+```text
+  - [💻 Paso 1: Preparar Eclipse]
+  - [🌐 Paso 2: Crear tu cuenta SAP]
+  - [⚡ Paso 3: Crear y conectar tu ambiente ABAP en Eclipse]
+```
 
 ---
 
