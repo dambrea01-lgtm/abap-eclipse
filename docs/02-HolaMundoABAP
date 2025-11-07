@@ -1,0 +1,20 @@
+# 🚀 Capítulo 2: ¡Hola Mundo! Soy ABAP 🌍
+
+| [⬅️ Ir al Capítulo 1](../capitulo1/README.md) | [↩️ Volver al inicio del proyecto](../README.md) |
+| :-------------------------------------------: | :----------------------------------------------: |
+
+---
+
+En este capítulo vamos a dar nuestros primeros pasos reales en ABAP Cloud. Después de haber instalado Eclipse y conectado nuestro entorno en SAP BTP, ahora aprenderemos a entender el entorno de trabajo (el famoso Project Explorer) y crearemos nuestro primer programa ABAP: “¡Hola Mundo! Soy ABAP”.
+
+---
+
+## 🧭 Explorando Eclipse y el Project Explorer
+
+Antes de programar nada, veamos qué tenemos en pantalla cuando abrimos nuestro entorno ABAP en Eclipse. Después de haber configurado todo en el Capítulo 1, ahora deberías ver algo así en el panel izquierdo 👇
+
+![Project Explorer](assets/tema-02/img-tema02-00.png)
+
+- 🧩 **¿Qué es todo esto?**
+
+Cuando conectas tu Eclipse con tu cuenta SAP BTP ABAP Cloud trial, SAP automáticamente crea una conexión al sistema TRL (Trial). No te preocupes, tú no creaste nada manualmente: esto viene preconfigurado para que puedas empezar a practicar sin tocar objetos del sistema.
