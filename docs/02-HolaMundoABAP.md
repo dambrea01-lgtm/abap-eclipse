@@ -253,7 +253,7 @@ Tu consola mostrará:
 
 ![mensaje de consola](assets/tema-02/img-tema02-25.png)
 
-![👉Link para ver el codigo completo](../src/capitulo-02/z_hello_world_abap.aclass)
+[**👉Link para ver el codigo completo**](../src/capitulo-02/z_hello_world_abap.aclass)
 
 ---
 
