@@ -1,7 +1,7 @@
 # Capítulo 1: Configuración inicial de ABAP Cloud en Eclipse ☁️💻
 
-| [↩️ Volver al inicio](../README.md) |
-| :---------------------------------: |
+| [↩️ Volver al inicio del proyecto](../README.md) |
+| :----------------------------------------------: |
 
 ---
 
@@ -14,11 +14,11 @@ En este capítulo vamos a **explorar juntos** cómo crear tu cuenta trial gratui
 
 # 📚 Índice del Capítulo
 
-| Sección                                                     | Descripción                                                                                     |
-| :---------------------------------------------------------- | :---------------------------------------------------------------------------------------------- |
-| 💻 **Paso 1: Preparar Eclipse**                             | Instalación de Eclipse y configuración de los plugins de ABAP Development Tools (ADT).          |
-| 🌐 **Paso 2: Crear tu cuenta SAP**                          | Cómo registrarte en SAP y activar tu entorno ABAP Cloud en la SAP Business Technology Platform. |
-| ⚡ **Paso 3: Crear y conectar tu ambiente ABAP en Eclipse** | Creación de la instancia ABAP en la nube y conexión con Eclipse.                                |
+| Sección                                                                                                              | Descripción                                                                                     |
+| :------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------- |
+| [💻 **Paso 1: Preparar Eclipse**](#-paso-1-preparar-eclipse)                                                         | Instalación de Eclipse y configuración de los plugins de ABAP Development Tools (ADT).          |
+| [🌐 **Paso 2: Crear tu cuenta SAP**](#-paso-2-crear-tu-cuenta-sap)                                                   | Cómo registrarte en SAP y activar tu entorno ABAP Cloud en la SAP Business Technology Platform. |
+| [⚡ **Paso 3: Crear y conectar tu ambiente ABAP en Eclipse**](#-paso-3-crear-y-conectar-tu-ambiente-abap-en-eclipse) | Creación de la instancia ABAP en la nube y conexión con Eclipse.                                |
 
 ---
 
@@ -208,5 +208,5 @@ Ahora tienes:
 
 ---
 
-| [↩️ Volver al inicio](../README.md) |
-| :---------------------------------: |
+| [↩️ Volver al inicio del proyecto](../README.md) | [⬆️ Ir al inicio del capítulo](#-índice-del-capítulo) |
+| :----------------------------------------------: | :---------------------------------------------------: |
