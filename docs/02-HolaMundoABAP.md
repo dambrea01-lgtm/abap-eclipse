@@ -9,6 +9,22 @@ En este capítulo vamos a dar nuestros primeros pasos reales en ABAP Cloud. Desp
 
 ---
 
+## 📚 Índice del Capítulo
+
+| Sección                                                                                            | Descripción                                                                        |
+| :------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+| [🧭 **Explorando Eclipse y el Project Explorer**](#-explorando-eclipse-y-el-project-explorer)      | Conoce el entorno de desarrollo ABAP Cloud y cómo navegar en el Project Explorer.  |
+| [🎁 **Paquetes y estructura del entorno**](#-paquetes-y-estructura-del-entorno)                    | Aprende qué son los paquetes y cómo organizan tus objetos en ABAP Cloud.           |
+| [📦 **Crear tu propio paquete ABAP**](#-crear-tu-propio-paquete-abap)                              | Paso a paso para crear tu primer paquete en ABAP Cloud Trial.                      |
+| [🚚 **Cómo abrir el Transport Organizer**](#-cómo-abrir-el-transport-organizer)                    | Usa el Transport Organizer para gestionar transportes y objetos dentro de Eclipse. |
+| [💻 **Crear programa ABAP “Hola Mundo”**](#-crear-programa-abap-hola-mundo)                        | Crea tu primera clase ejecutable con ABAP Cloud y entiende su estructura básica.   |
+| [📖 **Explicación del código generado**](#-explicación-del-código-que-se-generó-al-crear-la-clase) | Detalle completo de cada parte del código inicial que Eclipse genera por defecto.  |
+| [🖐️ **Creando nuestro “Hola Mundo” en ABAP Cloud**](#️-creando-nuestro-hola-mundo-en-abap-cloud)   | Escribe, ejecuta y entiende tu primer programa en ABAP Cloud.                      |
+
+|
+
+---
+
 ## 🧭 Explorando Eclipse y el Project Explorer
 
 Antes de programar nada, veamos qué tenemos en pantalla cuando abrimos nuestro entorno ABAP en Eclipse. Después de haber configurado todo en el Capítulo 1, ahora deberías ver algo así en el panel izquierdo 👇
@@ -30,12 +46,12 @@ Cuando conectas tu Eclipse con tu cuenta SAP BTP ABAP Cloud trial, SAP automáti
 
 ---
 
-## 📦 Paquetes y estructura del entorno
+## 🎁 Paquetes y estructura del entorno
 
 En ABAP clásico (ECC), trabajábamos con transacciones como SE80 o SE38.
 Pero en ABAP Cloud ya no existen esas transacciones — ahora todo se maneja como objetos dentro de Eclipse 🧱.
 
-Los paquetes 📦 funcionan como carpetas organizadoras de tus programas, clases e interfaces.
+Los paquetes funcionan como carpetas organizadoras de tus programas, clases e interfaces.
 
 Cuando recién comienzas, puedes crear tus desarrollos en el paquete temporal $TMP, que no requiere transporte ni autorización especial.
 
@@ -148,27 +164,15 @@ En transport Request lo dejamos en blanco y le damos a finish
 
 ![transport request en blanco](assets/tema-02/img-tema02-11.png)
 
-¡Tachaaan! ✨ Eclipse abrirá el editor de código 🖥️
+- ¡Tachaaan! ✨ Eclipse abrirá el editor de código 🖥️
 
 ![Editor de codigo](assets/tema-02/img-tema02-12.png)
 
 ---
 
-## Explicación del código que se generó al crear la clase
+## 📖 Explicación del código que se generó al crear la clase
 
-```abap
-CLASS z_hello_world_abap DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
-
-  PUBLIC SECTION.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
-ENDCLASS.
-```
-
-> CLASS z_hello_world_abap DEFINITION
+- CLASS z_hello_world_abap DEFINITION
 
 ![z_hello_world_abap](assets/tema-02/img-tema02-13.png)
 
@@ -177,7 +181,7 @@ z_hello_world_abap es el nombre de tu clase.
 
 En ABAP Cloud, todas las clases se crean como objetos, no como programas.
 
-> Modificadores
+- Modificadores
 
 ![modificadores](assets/tema-02/img-tema02-14.png)
 
@@ -185,7 +189,7 @@ PUBLIC → la clase es accesible desde otros objetos o programas.
 FINAL → la clase no puede ser heredada.
 CREATE PUBLIC → puedes crear instancias de esta clase desde cualquier lugar.
 
-> Secciones de la clase
+- Secciones de la clase
 
 ![secciones de la clase](assets/tema-02/img-tema02-15.png)
 
@@ -195,14 +199,14 @@ CREATE PUBLIC → puedes crear instancias de esta clase desde cualquier lugar.
 | **PROTECTED SECTION.** | Subclases            | Elementos que pueden heredarse.          |
 | **PRIVATE SECTION.**   | Solo la propia clase | Variables o métodos internos.            |
 
-> Dentro de la PUBLIC SECTION
+- Dentro de la PUBLIC SECTION
 
 ![interfaz](assets/tema-02/img-tema02-20.png)
 
 Esto es muy importante 👉 esta interfaz permite que tu clase se pueda ejecutar desde Eclipse. Equivale al método main() en otros lenguajes como Java o C.
 Sin esta interfaz, tu clase no se podría correr como una aplicación ABAP Cloud.
 
-> CLASS z_hello_world_abap IMPLEMENTATION.
+- CLASS z_hello_world_abap IMPLEMENTATION.
 
 ![secciones de la clase](assets/tema-02/img-tema02-16.png)
 
@@ -226,9 +230,7 @@ El método if_oo_adt_classrun~main se ejecuta automáticamente cuando pulsas
 
 La interfaz que usamos (`IF_OO_ADT_CLASSRUN`) nos indica **cómo se ejecuta el código** y dentro de su método principal (`MAIN`), va todo lo que queremos ejecutar. También podemos crear otros métodos y llamarlos desde ahí.
 
----
-
-### 💬 Escribiendo el código del “Hola Mundo”
+💬 **Escribiendo el código del “Hola Mundo”**
 
 Dentro del método `MAIN`, vamos a imprimir nuestro mensaje.  
 Escribe el siguiente código 👇
@@ -251,9 +253,9 @@ Tu consola mostrará:
 
 ![mensaje de consola](assets/tema-02/img-tema02-25.png)
 
-
+![👉Link para ver el codigo completo](../src/capitulo-02/z_hello_world_abap.aclass)
 
 ---
 
-| [⬅️ Ir al Capítulo 1](../docs/01-Introduccion.md) | [↩️ Volver al inicio del proyecto](../README.md) |
-| :-----------------------------------------------: | :----------------------------------------------: |
+| [⬅️ Ir al Capítulo 1](../docs/01-Introduccion.md) | [⬆️ Ir al inicio del capítulo](#-capítulo-2-hola-mundo-soy-abap-) | [↩️ Volver al inicio del proyecto](../README.md) |
+| :-----------------------------------------------: | :---------------------------------------------------------------: | :----------------------------------------------: |

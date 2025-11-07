@@ -22,10 +22,15 @@ Aquí no solo seguiremos un tutorial, sino que **exploraremos juntos cómo traba
 
 ```text
   - [🧭 Explorando Eclipse y el Project Explorer]
-  - [📦 Paquetes y estructura del entorno]
+  - [🎁 Paquetes y estructura del entorno]
   - [📦 Crear tu propio paquete ABAP]
-  - [🛠️ Desarrollando ... ]
+  - [🚚 Cómo abrir el Transport Organizer]
+  - [💻 Crear programa ABAP “Hola Mundo”]
+  - [📖 Explicación del código generado]
+  - [🖐️ Creando nuestro “Hola Mundo” en ABAP Cloud]
 ```
+
+### 3. [ 🛠️ desarrollando ...]
 
 ---
 
