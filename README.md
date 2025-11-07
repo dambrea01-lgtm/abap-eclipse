@@ -18,6 +18,12 @@ Aquí no solo seguiremos un tutorial, sino que **exploraremos juntos cómo traba
   - [⚡ Paso 3: Crear y conectar tu ambiente ABAP en Eclipse]
 ```
 
+### 2. [🚀 ¡Hola Mundo! Soy ABAP 🌍](docs/02-HolaMundoABAP.md)
+
+```text
+  - [🧭 Explorando Eclipse y el Project Explorer]
+```
+
 ---
 
 ## ¿Qué aprenderemos? 💻
@@ -52,14 +58,12 @@ La idea es que este repositorio sirva no solo como guía, sino como **bitácora 
 ```text
 abap-eclipse/
 ├── README.md                   ← Este archivo principal
-├── docs/                       ← Documentación y guías por capítulos
-│   ├── 01-introduccion.md      ← Capítulo 1: Instalación y configuración del entorno
-│   ├── 02-eclipse-basico.md    ← Capítulo 2: Conociendo Eclipse y sus herramientas
-│   ├── 03-paquetes-y-clases.md ← Capítulo 3: Creación de objetos ABAP Cloud
-│   └── assets/                 ← Imágenes y recursos visuales
-├── exercises/                  ← Ejercicios prácticos y retos
-├── code-examples/              ← Ejemplos de código ABAP
-└── resources/                  ← Enlaces, documentación y material adicional
+├── docs/                       ← Contiene los capitulos del tutorial
+│   ├── 01-introduccion.md
+│   ├── ...
+│   └── assets/                 ← Imágenes, recursos visuales de los capitulos
+├── ejercicios/                 ← Ejercicios prácticos y retos
+└── recursos/                   ← Enlaces, documentación y material adicional
 ```
 
 ---

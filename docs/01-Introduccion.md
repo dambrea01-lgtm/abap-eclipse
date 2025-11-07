@@ -1,7 +1,7 @@
 # Capítulo 1: Configuración inicial de ABAP Cloud en Eclipse ☁️💻
 
-| [↩️ Volver al inicio del proyecto](../README.md) | [➡️ Ir al Capítulo 2](../docs/02-HolaMundoABAP) |
-| :----------------------------------------------: | :---------------------------------------------: |
+| [↩️ Volver al inicio del proyecto](../README.md) | [➡️ Ir al Capítulo 2](../docs/02-HolaMundoABAP.md) |
+| :----------------------------------------------: | :------------------------------------------------: |
 
 ---
 
