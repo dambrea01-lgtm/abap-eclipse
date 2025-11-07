@@ -1,7 +1,7 @@
 # 🚀 Capítulo 2: ¡Hola Mundo! Soy ABAP 🌍
 
-| [⬅️ Ir al Capítulo 1](../capitulo1/README.md) | [↩️ Volver al inicio del proyecto](../README.md) |
-| :-------------------------------------------: | :----------------------------------------------: |
+| [⬅️ Ir al Capítulo 1](../docs/01-Introduccion.md) | [↩️ Volver al inicio del proyecto](../README.md) |
+| :-----------------------------------------------: | :----------------------------------------------: |
 
 ---
 
@@ -34,5 +34,5 @@ Cuando conectas tu Eclipse con tu cuenta SAP BTP ABAP Cloud trial, SAP automáti
 
 ---
 
-| [⬅️ Ir al Capítulo 1](../capitulo1/README.md) | [↩️ Volver al inicio del proyecto](../README.md) |
-| :-------------------------------------------: | :----------------------------------------------: |
+| [⬅️ Ir al Capítulo 1](../docs/01-Introduccion.md) | [↩️ Volver al inicio del proyecto](../README.md) |
+| :-----------------------------------------------: | :----------------------------------------------: |

@@ -22,6 +22,7 @@ Aquí no solo seguiremos un tutorial, sino que **exploraremos juntos cómo traba
 
 ```text
   - [🧭 Explorando Eclipse y el Project Explorer]
+  - [🛠️ Desarrollando ... ]
 ```
 
 ---
