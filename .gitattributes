@@ -1,0 +1,3 @@
+*.aclass linguist-language=ABAP
+*.aintf linguist-language=ABAP
+*.aprog linguist-language=ABAP
