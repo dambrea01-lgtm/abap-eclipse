@@ -30,7 +30,74 @@ Cuando conectas tu Eclipse con tu cuenta SAP BTP ABAP Cloud trial, SAP automáti
 
 ---
 
-( desarrollando ... )
+## 📦 Paquetes y estructura del entorno
+
+En ABAP clásico (ECC), trabajábamos con transacciones como SE80 o SE38.
+Pero en ABAP Cloud ya no existen esas transacciones — ahora todo se maneja como objetos dentro de Eclipse 🧱.
+
+Los paquetes 📦 funcionan como carpetas organizadoras de tus programas, clases e interfaces.
+
+Cuando recién comienzas, puedes crear tus desarrollos en el paquete temporal $TMP, que no requiere transporte ni autorización especial.
+
+Más adelante aprenderemos a crear paquetes persistentes y transportables para proyectos reales.
+
+---
+
+## 📦 Crear tu propio paquete
+
+1️⃣ En Eclipse, abre el panel izquierdo Project Explorer.
+
+    Ahí verás tu conexión, algo como:
+
+    TRL_EN [TRL, 100, tu numero id user trial, EN]
+
+2️⃣ Expándelo (haz clic en el ▶️).
+
+3️⃣ Dentro, abre la carpeta Favorite Packages.
+
+![paquetes favoritos](assets/tema-02/img-tema02-03.png)
+
+Sobre ZLOCAL haz click derecho:
+New → ABAP Package.
+![paquetes favoritos](assets/tema-02/img-tema02-04.png)
+
+Te pedirá algunos datos:
+
+**Name**: yo le voy a poner Z + mi primer apellido + \_TUTORIAL = ZBREA_TUTORIAL
+
+**Description**: “Paquete para mi primer programa ABAP”.
+
+Marcamos el checkbox de "add to favorite packages" Le damos a Next
+
+![paquetes favoritos](assets/tema-02/img-tema02-05.png)
+
+**¿Por qué no puedes seleccionar Software Component ni Transport Layer?**
+
+ABAP Cloud Trial no funciona igual que un sistema on-premise (ECC/S4).
+
+Cuando creas un paquete en ZLOCAL: Eclipse ya sabe en qué Software Component vas a trabajar. Por eso, el campo de Software Component aparece en gris y no se puede cambiar.
+
+Lo mismo pasa con Transport Layer:En Trial, no existen transportes reales. Eclipse muestra el campo, pero no se puede editar.
+
+![paquetes favoritos](assets/tema-02/img-tema02-06.png)
+
+**Select Transport Request aparece en blanco**
+
+En sistemas productivos, aquí seleccionarías un transport request existente o crearías uno nuevo. En ABAP Cloud Trial, no hay transport requests disponibles.
+
+Esto es esperado: simplemente Eclipse te obliga a pasar por esta pantalla, pero puedes darle Finish directamente.
+
+![paquetes favoritos](assets/tema-02/img-tema02-07.png)
+
+Finalmente ya tenemos el paquete creado, y listo para crear nuestros programas.
+
+![paquetes favoritos](assets/tema-02/img-tema02-08.png)
+
+---
+
+## 💻 Crear tu primer programa ABAP
+
+(desarrollando ...)
 
 ---
 
