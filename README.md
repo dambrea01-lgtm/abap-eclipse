@@ -1,5 +1,5 @@
 <p align="center">
-  ![Tutorial ABAP Cloud](recursos/sap-btp-banner-blog-2560x1100.png)
+  <img src="recursos/sap-btp-banner-blog-2560x1100.png" alt="Tutorial ABAP Cloud" width="1280"/>
 </p>
 
 # Bienvenido al proyecto ABAP-Eclipse ☁️🧩
