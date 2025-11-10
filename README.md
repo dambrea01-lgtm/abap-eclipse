@@ -1,3 +1,7 @@
+<p align="center">
+  ![Tutorial ABAP Cloud](recursos/sap-btp-banner-blog-2560x1100.png)
+</p>
+
 # Bienvenido al proyecto ABAP-Eclipse ☁️🧩
 
 Este proyecto nace de mi **interés por dominar el entorno de desarrollo moderno de SAP** y entender en profundidad cómo **ABAP puede integrarse con Eclipse mediante ABAP Development Tools (ADT)** dentro del ecosistema **SAP BTP (Business Technology Platform)**.
