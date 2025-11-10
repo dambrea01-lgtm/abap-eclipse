@@ -17,8 +17,6 @@
 | [🧩 Creación de un Dominio en Eclipse](#-creación-de-un-dominio-en-eclipse)     | Paso a paso para crear un dominio que defina las propiedades técnicas de tus campos.   |
 | [⚙️ Configuración del Dominio (🛠️ desarrollando)](#️-configuración-del-dominio) | Explicación de los parámetros técnicos del dominio: tipo de dato, longitud y valores.  |
 
-|
-
 ---
 
 ## 🧭 ¿Qué es el Diccionario de Datos?
@@ -41,31 +39,29 @@ Te muestro a continuación, como crear un dominio en tu proyecto ABAP SAP Cloud.
 
 ![Paquete ZBREA_TUTORIAL](assets/tema-03/img-01.png)
 
-Nos posicionamos con el cursor encima de nuestro paquete y hacemos click boton derecho y seleccionamos: New > Other ABAP Repository Object
+👉 Nos posicionamos con el cursor encima de nuestro paquete y hacemos click boton derecho y seleccionamos: New > Other ABAP Repository Object
 
 ![Other ABAP Repository Object](assets/tema-03/img-02.png)
 
-Busca Domain 🔍 y haz Clic en Next
+👉 Busca Domain 🔍 y haz Clic en Next
 
 ![Domain](assets/tema-03/img-03.png)
 
-Escribe un nombre y una descripción, por ejmplo ZBREA_DOM_URL – Dominio para URLs "es muy recomendable que uses siempre tus iniciales Z(tus iniciales) para cuando tengas que buscar algo creado por ti, lo encuentres rápido, ya que estamos en el modo de prueba".
+👉 Escribe un nombre y una descripción, por ejmplo ZBREA_DOM_URL – Dominio para URLs "es muy recomendable que uses siempre tus iniciales Z(tus iniciales) para cuando tengas que buscar algo creado por ti, lo encuentres rápido, ya que estamos en el modo de prueba".
 
 ![Domain](assets/tema-03/img-04.png)
 
-En ABAP Cloud (Eclipse, entorno BTP) los objetos no se transportan con órdenes de transporte clásicas como en los sistemas on-premise (SAP ECC o S/4HANA local).
-
-👉 Es decir, las órdenes de transporte no existen en el modelo Cloud, ya que los objetos se guardan directamente en el paquete del software component o del namespace asignado a tu espacio de desarrollo.
+👉 En ABAP Cloud (Eclipse, entorno BTP) los objetos no se transportan con órdenes de transporte clásicas como en los sistemas on-premise (SAP ECC o S/4HANA local). Es decir, las órdenes de transporte no existen en el modelo Cloud, ya que los objetos se guardan directamente en el paquete del software component o del namespace asignado a tu espacio de desarrollo.
 
 Por eso sale vacio estos campos, solo haz clic en finalizar (finish)
 
 ![Domain](assets/tema-03/img-05.png)
 
-Podemos ver en la raiz de nuestro proyecto, como se ha generado el dominio que acabamos de crear:
+👉Podemos ver en la raiz de nuestro proyecto, como se ha generado el dominio que acabamos de crear:
 
 ![dominio en la raiz del proyecto](assets/tema-03/img-15.png)
 
-Y listo ya tenemos el dominio creado a la espera de una configuración.
+👉 Y listo ya tenemos el dominio creado a la espera de una configuración.
 
 ![Domain](assets/tema-03/img-06.png)
 
@@ -139,7 +135,38 @@ Para finalizar activamos nuestro dominio, haciendo clic en el icono (que parece 
 
 > ⚠️ **Nota importante**: Los **dominios** no se usan directamente en programas, clases o tablas. Solo pueden ser utilizados a través de los **elementos de datos**.
 
-Por lo tanto, vamos a ver como se crean los elementos de datos en esta sección.
+👉 Por lo tanto, vamos a crear un elemento que use nuestro dominio ZBREA_DOM_URL. Vamos a nuestra raiz del proyecto.
+
+![raiz proyecto](assets/tema-03/img-17.png)
+
+👉 Podemos crear nuestro elemento de datos de la misma forma que hicimos al crear nuestro dominio: New > Other ABAP Repository Object y buscamos Data Element.
+
+Pero tambien podemos crearlo haciando clic sobre la carpeta dictionary: new > data element
+
+![creando desde dictionary](assets/tema-03/img-18.png)
+
+👉 Ponemos un nombre a nuesto data element, por ejemplo ZBREA_ELEM_URL y una descripción - Elemento para almacenar URLs. Y pulsumanos next.
+
+![data element](assets/tema-03/img-19.png)
+
+👉 Las órdenes de transporte no existen en el modelo Cloud, lo dejamos vacio y le damos a finalizar.
+
+![transport](assets/tema-03/img-20.png)
+
+👉 Listo, ya nos aparece el Data Element en nuestra carpeta Dictionary del proyecto.
+
+![raiz data element](assets/tema-03/img-21.png)
+
+👉 Solo falta configuarar nuestro Data Element
+
+![data element plantilla](assets/tema-03/img-22.png)
+
+---
+
+## 📐 Configurar un Elemento de Datos en ABAP Cloud
+
+
+---
 
 [ 🛠️ desarrollando ...]
 
