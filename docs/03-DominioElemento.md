@@ -11,13 +11,12 @@
 
 ## 📚 Índice del Capítulo
 
-| Sección | Descripción |
-| :------ | :---------- |
+| Sección                                                                         | Descripción                                                                            |
+| :------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------- |
+| [🧭 ¿Qué es el Diccionario de Datos?](#-qué-es-el-diccionario-de-datos)         | Aprende qué papel cumple el Data Dictionary en ABAP Cloud y por qué es tan importante. |
+| [🧩 Creación de un Dominio en Eclipse](#-creación-de-un-dominio-en-eclipse)     | Paso a paso para crear un dominio que defina las propiedades técnicas de tus campos.   |
+| [⚙️ Configuración del Dominio (🛠️ desarrollando)](#️-configuración-del-dominio) | Explicación de los parámetros técnicos del dominio: tipo de dato, longitud y valores.  |
 
-|
-| [🧭 ¿Qué es el Diccionario de Datos?](#-qué-es-el-diccionario-de-datos) | Aprende qué papel cumple el Data Dictionary en ABAP Cloud y por qué es tan importante. |
-| [🧩 Creación de un Dominio en Eclipse](#-creación-de-un-dominio-en-eclipse) | Paso a paso para crear un dominio que defina las propiedades técnicas de tus campos. |
-| [⚙️ Configuración del Dominio (🛠️ desarrollando)](#️-configuración-del-dominio) | Explicación de los parámetros técnicos del dominio: tipo de dato, longitud y valores. |
 |
 
 ---
