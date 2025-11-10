@@ -69,6 +69,14 @@ Y listo ya tenemos el dominio creado a la espera de una configuración.
 
 ## ⚙️ Configuración del Dominio
 
+| Propiedad     | Descripción                                                                                           | Ejemplo práctico                                                                 |
+| :------------- | :---------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| **Data Type**  | Tipo de dato físico en base de datos (ej. `CHAR`, `NUMC`, `DEC`, `INT`). Define cómo se guarda internamente. | `CHAR` para texto, `NUMC` para números almacenados como caracteres (p. ej. códigos), `DEC` para valores decimales monetarios. |
+
+![data type](assets/tema-03/img-07.png)
+
+---
+
 [ 🛠️ desarrollando ...]
 
 ---
