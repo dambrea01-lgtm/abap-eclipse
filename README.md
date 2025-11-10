@@ -35,7 +35,8 @@ Aquí no solo seguiremos un tutorial, sino que **exploraremos juntos cómo traba
 ```text
   -[🧭 ¿Qué es el Diccionario de Datos?]
   -[🧩 Creación de un Dominio en Eclipse]
-  -[ 🛠️ desarrollando ...]
+  -[⚙️ Configuración del Dominio]
+  -[🧱 Creación de un Elemento de Datos (🛠️ desarrollando ...)]
 ```
 
 ---
