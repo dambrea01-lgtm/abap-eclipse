@@ -69,11 +69,53 @@ Y listo ya tenemos el dominio creado a la espera de una configuración.
 
 ## ⚙️ Configuración del Dominio
 
-| Propiedad     | Descripción                                                                                           | Ejemplo práctico                                                                 |
-| :------------- | :---------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| **Data Type**  | Tipo de dato físico en base de datos (ej. `CHAR`, `NUMC`, `DEC`, `INT`). Define cómo se guarda internamente. | `CHAR` para texto, `NUMC` para números almacenados como caracteres (p. ej. códigos), `DEC` para valores decimales monetarios. |
+| Propiedad     | Descripción                                                                                                  | Ejemplo práctico                                                                                                              |
+| :------------ | :----------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
+| **Data Type** | Tipo de dato físico en base de datos (ej. `CHAR`, `NUMC`, `DEC`, `INT`). Define cómo se guarda internamente. | `CHAR` para texto, `NUMC` para números almacenados como caracteres (p. ej. códigos), `DEC` para valores decimales monetarios. |
 
 ![data type](assets/tema-03/img-07.png)
+
+| Propiedad  | Descripción                                                                                       | Ejemplo práctico                                             |
+| :--------- | :------------------------------------------------------------------------------------------------ | :----------------------------------------------------------- |
+| **Length** | Longitud máxima del campo (nº de caracteres o posiciones). Es el tamaño real en la base de datos. | `URL`: 255 &nbsp;&nbsp;•&nbsp;&nbsp; `Código país (NUMC)`: 3 |
+
+![length](assets/tema-03/img-08.png)
+
+| Propiedad         | Descripción                                                                                | Ejemplo práctico                                                                      |
+| :---------------- | :----------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| **Output Length** | Longitud que se mostrará en pantallas o formularios. Puede ser menor o igual a **Length**. | Si `Length = 20` y `Output Length = 15`, solo se mostrarán 15 caracteres en pantalla. |
+
+![output length](assets/tema-03/img-09.png)
+
+| Propiedad          | Descripción                                                                                                        | Ejemplo práctico                                                                                                 |
+| :----------------- | :----------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+| **Decimal Places** | Número de decimales que almacena el campo; define la posición del punto decimal. Solo aplicable a campos tipo DEC. | Importe en euros: 2 decimales. Si `Length = 13` y `Decimals = 2`, acepta hasta 11 dígitos enteros + 2 decimales. |
+
+![decimal places](assets/tema-03/img-10.png)
+
+| Propiedad          | Descripción                                                                     | Ejemplo práctico                                                                                         |
+| :----------------- | :------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------- |
+| **Case Sensitive** | Indica si el campo distingue entre mayúsculas y minúsculas al comparar (A ≠ a). | URL: normalmente no sensible; códigos tipo AB12 pueden ser case-sensitive si se necesita diferenciarlos. |
+
+![case sensitive](assets/tema-03/img-11.png)
+
+| Propiedad        | Descripción                                                                          | Ejemplo práctico                                  |
+| :--------------- | :----------------------------------------------------------------------------------- | :------------------------------------------------ |
+| **Fixed Values** | Lista de valores permitidos; si se completa, solo se podrán introducir esos valores. | Estados: A = Activo, I = Inactivo, B = Bloqueado. |
+
+![fixed values](assets/tema-03/img-12.png)
+
+| Propiedad                     | Descripción                                              | Ejemplo práctico                            |
+| :---------------------------- | :------------------------------------------------------- | :------------------------------------------ |
+| **Value Table / Check Table** | Referencia a una tabla para validar valores, si procede. | T005 (países) para validar códigos de país. |
+
+![value table](assets/tema-03/img-13.png)
+
+Nuestro ejemplo usaremos CHAR, con length 255, con output length 100, no case-sensitive
+
+![ejemplo final](assets/tema-03/img-14.png)
+
+Y listo, ya tenemos nuestro dominio creado y configurado para nuestra URLs.
 
 ---
 
