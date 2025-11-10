@@ -36,7 +36,10 @@ Aquí no solo seguiremos un tutorial, sino que **exploraremos juntos cómo traba
   -[🧭 ¿Qué es el Diccionario de Datos?]
   -[🧩 Creación de un Dominio en Eclipse]
   -[⚙️ Configuración del Dominio]
-  -[🧱 Creación de un Elemento de Datos (🛠️ desarrollando ...)]
+  -[🧱 Creación de un Elemento de Datos]
+  -[📐 Configurar un Elemento de Datos en ABAP Cloud]
+  -[🎯 Diferencias Clave: Dominio vs Elemento de Datos]
+  -[ en desarrollo]
 ```
 
 ---
