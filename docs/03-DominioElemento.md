@@ -265,7 +265,35 @@ La siguiente tabla resume las diferencias clave entre ambos:
 
 ## Ejercicios Propuestos
 
-( en desarrollo)
+**Ejercicio 1 — Nivel Básico: Crear un Dominio y un Elemento de Datos para almacenar un código de país**
+
+**🎯 Objetivo:** Aprender a crear un dominio simple y un elemento de datos que lo utilice.
+
+**📘 Enunciado**: Crea un dominio llamado ZBREA_DOM_PAIS que almacene códigos de país de 3 caracteres. Luego, crea un elemento de datos llamado ZBREA_ELEM_PAIS que use este dominio.
+
+**💡 Pistas**: - Usa tipo de dato CHAR con longitud 3. - No hace falta usar valores fijos. - El elemento de datos debe usar el dominio.
+
+<hr/>
+<br/>
+
+**Ejercicio 2 — Nivel Intermedio: Crear un Dominio con valores fijos y un Elemento de Datos que los herede**
+
+**🎯 Objetivo:** Aprender a usar valores fijos en un dominio y ver cómo los hereda un elemento de datos.
+
+**📘 Enunciado:** Crea un dominio llamado ZBREA_DOM_ESTADO para almacenar un estado simple de un registro: A = Activo - I = Inactivo - B = Bloqueado. Luego crea un elemento de datos ZBREA_ELEM_ESTADO que utilice este dominio.
+
+**💡 Pistas:** - Usa tipo CHAR(1) - Agrega los valores fijos en la sección Fixed Values - El elemento de datos los heredará automáticamente
+
+<hr/>
+<br/>
+
+**Ejercicio Avanzado — Optimización semántica**
+
+**🎯 Objetivo:** Crear un elemento de datos con una semántica avanzada y comprender cómo influye en herramientas SAP sin necesidad de tablas.
+
+**📘 Enunciado:** Crea un dominio ZBREA_DOM_CODAPP, pensado para almacenar un "Código interno de una aplicación". Debe ser case-sensitive. Debe permitir valores entre 5 y 10 caracteres (longitud fija 10). No uses valores fijos. Luego crea un elemento de datos ZBREA_ELEM_CODAPP con las siguientes condiciones: Hereda el dominio. Define textos semánticos completos (Short, Medium, Long). En Heading debe aparecer "Código App". En Documentation agrega una descripción útil para otros desarrolladores.
+
+**Pregunta avanzada:** Explica por qué sería mejor usar dominio en este caso y no un tipo predefinido.
 
 <br/>
 <hr/>
