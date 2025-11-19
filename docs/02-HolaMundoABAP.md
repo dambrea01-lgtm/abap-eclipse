@@ -3,29 +3,35 @@
 | [⬅️ Ir al Capítulo 1](../docs/01-Introduccion.md) | [➡️ Ir al Capítulo 3](../docs/03-DominioElemento.md) | [↩️ Volver al inicio del proyecto](../README.md) |
 | :-----------------------------------------------: | :--------------------------------------------------: | :----------------------------------------------: |
 
----
+<br/>
+<hr/>
+<br/>
 
 En este capítulo vamos a dar nuestros primeros pasos reales en ABAP Cloud. Después de haber instalado Eclipse y conectado nuestro entorno en SAP BTP, ahora aprenderemos a entender el entorno de trabajo (el famoso Project Explorer) y crearemos nuestro primer programa ABAP: “¡Hola Mundo! Soy ABAP”.
 
----
+<br/>
+<hr/>
+<br/>
 
 ## 📚 Índice del Capítulo
 
-| Sección                                                                                            | Descripción                                                                        |
-| :------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
-| [🧭 **Explorando Eclipse y el Project Explorer**](#-explorando-eclipse-y-el-project-explorer)      | Conoce el entorno de desarrollo ABAP Cloud y cómo navegar en el Project Explorer.  |
-| [🎁 **Paquetes y estructura del entorno**](#-paquetes-y-estructura-del-entorno)                    | Aprende qué son los paquetes y cómo organizan tus objetos en ABAP Cloud.           |
-| [📦 **Crear tu propio paquete ABAP**](#-crear-tu-propio-paquete-abap)                              | Paso a paso para crear tu primer paquete en ABAP Cloud Trial.                      |
-| [🚚 **Cómo abrir el Transport Organizer**](#-cómo-abrir-el-transport-organizer)                    | Usa el Transport Organizer para gestionar transportes y objetos dentro de Eclipse. |
-| [💻 **Crear programa ABAP “Hola Mundo”**](#-crear-programa-abap-hola-mundo)                        | Crea tu primera clase ejecutable con ABAP Cloud y entiende su estructura básica.   |
-| [📖 **Explicación del código generado**](#-explicación-del-código-que-se-generó-al-crear-la-clase) | Detalle completo de cada parte del código inicial que Eclipse genera por defecto.  |
-| [🖐️ **Creando nuestro “Hola Mundo” en ABAP Cloud**](#️-creando-nuestro-hola-mundo-en-abap-cloud)   | Escribe, ejecuta y entiende tu primer programa en ABAP Cloud.                      |
+| Sección                                                                                                 | Descripción                                                                        |
+| :------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------- |
+| [**1. 🧭 Explorando Eclipse y el Project Explorer**](#1--explorando-eclipse-y-el-project-explorer)      | Conoce el entorno de desarrollo ABAP Cloud y cómo navegar en el Project Explorer.  |
+| [**2. 🎁 Paquetes y estructura del entorno**](#2--paquetes-y-estructura-del-entorno)                    | Aprende qué son los paquetes y cómo organizan tus objetos en ABAP Cloud.           |
+| [**3. 📦 Crear tu propio paquete ABAP**](#3--crear-tu-propio-paquete-abap)                              | Paso a paso para crear tu primer paquete en ABAP Cloud Trial.                      |
+| [**4. 🚚 Cómo abrir el Transport Organizer**](#4--cómo-abrir-el-transport-organizer)                    | Usa el Transport Organizer para gestionar transportes y objetos dentro de Eclipse. |
+| [**5. 💻 Crear programa ABAP “Hola Mundo”**](#5--crear-programa-abap-hola-mundo)                        | Crea tu primera clase ejecutable con ABAP Cloud y entiende su estructura básica.   |
+| [**6. 📖 Explicación del código generado**](#6--explicación-del-código-que-se-generó-al-crear-la-clase) | Detalle completo de cada parte del código inicial que Eclipse genera por defecto.  |
+| [**7. 🖐️ Creando nuestro “Hola Mundo” en ABAP Cloud**](#7-️-creando-nuestro-hola-mundo-en-abap-cloud)   | Escribe, ejecuta y entiende tu primer programa en ABAP Cloud.                      |
 
 |
 
----
+<br/>
+<hr/>
+<br/>
 
-## 🧭 Explorando Eclipse y el Project Explorer
+## [1. 🧭 Explorando Eclipse y el Project Explorer](#-índice-del-capítulo)
 
 Antes de programar nada, veamos qué tenemos en pantalla cuando abrimos nuestro entorno ABAP en Eclipse. Después de haber configurado todo en el Capítulo 1, ahora deberías ver algo así en el panel izquierdo 👇
 
@@ -44,9 +50,11 @@ Cuando conectas tu Eclipse con tu cuenta SAP BTP ABAP Cloud trial, SAP automáti
 
 > 💡 Dato curioso: En ABAP Cloud solo puedes usar objetos liberados. Esto garantiza que todo tu código sea compatible con el entorno cloud y no dependa de funciones internas del sistema.
 
----
+<br/>
+<hr/>
+<br/>
 
-## 🎁 Paquetes y estructura del entorno
+## [2. 🎁 Paquetes y estructura del entorno](#-índice-del-capítulo)
 
 En ABAP clásico (ECC), trabajábamos con transacciones como SE80 o SE38.
 Pero en ABAP Cloud ya no existen esas transacciones — ahora todo se maneja como objetos dentro de Eclipse 🧱.
@@ -57,9 +65,11 @@ Cuando recién comienzas, puedes crear tus desarrollos en el paquete temporal $T
 
 Más adelante aprenderemos a crear paquetes persistentes y transportables para proyectos reales.
 
----
+<br/>
+<hr/>
+<br/>
 
-## 📦 Crear tu propio paquete ABAP
+## [3. 📦 Crear tu propio paquete ABAP](#-índice-del-capítulo)
 
 En Eclipse, abre el panel izquierdo Project Explorer.
 
@@ -110,9 +120,11 @@ Finalmente ya tenemos el paquete creado, y listo para crear nuestros programas.
 
 ![paquetes creado](assets/tema-02/img-tema02-08.png)
 
----
+<br/>
+<hr/>
+<br/>
 
-## 🚚 Cómo abrir el Transport Organizer
+## [4. 🚚 Cómo abrir el Transport Organizer](#-índice-del-capítulo)
 
 > ⚠️ Nota importante: En ABAP Cloud no es necesario usar transportes reales como en ECC/S4HANA, porque todos tus objetos se guardan directamente en el sistema cloud trial.
 
@@ -140,9 +152,11 @@ Aquí puedes **asignar, revisar y liberar tu objeto, crear transportes, quitar t
 
 💡 **Tip curioso:** Esto simula la experiencia de ECC/S4HANA, y es útil para **controlar tus cambios** y aprender a manejar transportes antes de trabajar en un sistema productivo.
 
----
+<br/>
+<hr/>
+<br/>
 
-## 💻 Crear programa ABAP “Hola Mundo”
+## [5. 💻 Crear programa ABAP “Hola Mundo”](#-índice-del-capítulo)
 
 Ahora ya estamos preparado para crear nuestro primer programa dentro de **ZBREA_TUTORIAL**:
 
@@ -168,9 +182,11 @@ En transport Request lo dejamos en blanco y le damos a finish
 
 ![Editor de codigo](assets/tema-02/img-tema02-12.png)
 
----
+<br/>
+<hr/>
+<br/>
 
-## 📖 Explicación del código que se generó al crear la clase
+## [6. 📖 Explicación del código que se generó al crear la clase](#-índice-del-capítulo)
 
 - CLASS z_hello_world_abap DEFINITION
 
@@ -218,13 +234,17 @@ El método if_oo_adt_classrun~main se ejecuta automáticamente cuando pulsas
 
 ![ejecutando](assets/tema-02/img-tema02-21.png)
 
----
+<br/>
+<hr/>
+<br/>
 
 > 💡 **¡Dato curioso!** En ABAP, cada sentencia se termina con un punto (.). Esto es diferente a otros lenguajes como Java, C o Python que usan punto y coma o indentación. Si olvidas el punto, ABAP no ejecutará tu código y te marcará error.
 
----
+<br/>
+<hr/>
+<br/>
 
-## 🖐️ Creando nuestro “Hola Mundo” en ABAP Cloud
+## [7. 🖐️ Creando nuestro “Hola Mundo” en ABAP Cloud](#-índice-del-capítulo)
 
 ⚠️ En **ABAP Cloud** ya no vamos a crear **programas ejecutables** ni **transacciones**. Ahora todo trabaja **orientado a objetos** y todo se ejecuta mediante **clases y métodos**
 
@@ -255,7 +275,9 @@ Tu consola mostrará:
 
 [**👉Link para ver el codigo completo**](../src/capitulo-02/z_hello_world_abap.aclass)
 
----
+<br/>
+<hr/>
+<br/>
 
 | [⬅️ Ir al Capítulo 1](../docs/01-Introduccion.md) | [⬆️ Ir al inicio del capítulo](#-capítulo-2-hola-mundo-soy-abap-) | [➡️ Ir al Capítulo 3](../docs/03-DominioElemento.md) | [↩️ Volver al inicio del proyecto](../README.md) |
 | :-----------------------------------------------: | :---------------------------------------------------------------: | :--------------------------------------------------: | :----------------------------------------------: |

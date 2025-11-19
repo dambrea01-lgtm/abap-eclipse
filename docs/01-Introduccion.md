@@ -3,26 +3,32 @@
 | [↩️ Volver al inicio del proyecto](../README.md) | [➡️ Ir al Capítulo 2](../docs/02-HolaMundoABAP.md) |
 | :----------------------------------------------: | :------------------------------------------------: |
 
----
+<br/>
+<hr/>
+<br/>
 
 Bienvenido a este viaje por **ABAP Cloud con Eclipse**.  
 En este capítulo vamos a **explorar juntos** cómo crear tu cuenta trial gratuita, configurar Eclipse con **ABAP Development Tools (ADT)** y dejar todo listo para tus primeros proyectos.
 
 > Lo mejor: ¡esta cuenta será completamente gratis! 🆓
 
----
+<br/>
+<hr/>
+<br/>
 
 # 📚 Índice del Capítulo
 
-| Sección                                                                                                              | Descripción                                                                                     |
-| :------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------- |
-| [💻 **Paso 1: Preparar Eclipse**](#-paso-1-preparar-eclipse)                                                         | Instalación de Eclipse y configuración de los plugins de ABAP Development Tools (ADT).          |
-| [🌐 **Paso 2: Crear tu cuenta SAP**](#-paso-2-crear-tu-cuenta-sap)                                                   | Cómo registrarte en SAP y activar tu entorno ABAP Cloud en la SAP Business Technology Platform. |
-| [⚡ **Paso 3: Crear y conectar tu ambiente ABAP en Eclipse**](#-paso-3-crear-y-conectar-tu-ambiente-abap-en-eclipse) | Creación de la instancia ABAP en la nube y conexión con Eclipse.                                |
+| Sección                                                                                                                   | Descripción                                                                                     |
+| :------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------- |
+| [**1. 💻 Paso 1: Preparar Eclipse**](#1--paso-1-preparar-eclipse)                                                         | Instalación de Eclipse y configuración de los plugins de ABAP Development Tools (ADT).          |
+| [**2. 🌐 Paso 2: Crear tu cuenta SAP**](#2--paso-2-crear-tu-cuenta-sap)                                                   | Cómo registrarte en SAP y activar tu entorno ABAP Cloud en la SAP Business Technology Platform. |
+| [**3. ⚡ Paso 3: Crear y conectar tu ambiente ABAP en Eclipse**](#3--paso-3-crear-y-conectar-tu-ambiente-abap-en-eclipse) | Creación de la instancia ABAP en la nube y conexión con Eclipse.                                |
 
----
+<br/>
+<hr/>
+<br/>
 
-## 💻 Paso 1: Preparar Eclipse
+## [1. 💻 Paso 1: Preparar Eclipse](#-índice-del-capítulo)
 
 1️⃣ **Instalar Eclipse**
 
@@ -73,9 +79,11 @@ Pasos:
 
 - ¡Listo! Eclipse ahora está preparado para trabajar con ABAP 🚀
 
----
+<br/>
+<hr/>
+<br/>
 
-## 🌐 Paso 2: Crear tu cuenta SAP
+## [2. 🌐 Paso 2: Crear tu cuenta SAP](#-índice-del-capítulo)
 
 Para poder trabajar con ABAP Cloud y conectar Eclipse, primero necesitamos una **cuenta SAP**. Esto nos permitirá acceder a la **SAP Business Technology Platform (BTP)** y crear nuestros ambientes de desarrollo.
 
@@ -125,9 +133,11 @@ Una vez creada tu cuenta SAP, el siguiente paso es configurar tu **entorno ABAP 
 
 - Todo lo que hagas puede **resguardarse y respaldarse** 💾, permitiéndote mantener tus desarrollos y reutilizarlos si decides crear otra cuenta en el futuro.
 
----
+<br/>
+<hr/>
+<br/>
 
-## ⚡ Paso 3: Crear y conectar tu ambiente ABAP en Eclipse
+## [3. ⚡ Paso 3: Crear y conectar tu ambiente ABAP en Eclipse](#-índice-del-capítulo)
 
 1️⃣ **Crear una instancia ABAP en BTP mediante Boosters**
 
@@ -195,7 +205,9 @@ Una vez creada tu cuenta SAP, el siguiente paso es configurar tu **entorno ABAP 
 
 💡 **Tip**: Mantén a mano la **Service Key**; si necesitas reconectar desde otra máquina o restaurar la instancia, podrás reutilizarla fácilmente 🔄.
 
----
+<br/>
+<hr/>
+<br/>
 
 ✅ **Resultado final**  
 Ahora tienes:
@@ -206,7 +218,9 @@ Ahora tienes:
 
 > En los próximos capítulos aprenderemos a **crear paquetes, clases y programar ABAP paso a paso** 🏆
 
----
+<br/>
+<hr/>
+<br/>
 
 | [↩️ Volver al inicio del proyecto](../README.md) | [⬆️ Ir al inicio del capítulo](#-índice-del-capítulo) | [➡️ Ir al Capítulo 2](../docs/02-HolaMundoABAP.md) |
 | :----------------------------------------------: | :---------------------------------------------------: | :------------------------------------------------- |

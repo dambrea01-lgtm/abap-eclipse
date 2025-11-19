@@ -3,26 +3,32 @@
 | [⬅️ Ir al Capítulo 2](../docs/02-HolaMundoABAP.md) | [↩️ Volver al inicio del proyecto](../README.md) |
 | :------------------------------------------------: | :----------------------------------------------: |
 
----
+<br/>
+<hr/>
+<br/>
 
 > En este capítulo aprenderás a crear **dominios** y **elementos de datos** en SAP ABAP Cloud desde Eclipse. Estos objetos son fundamentales dentro del **Diccionario de Datos** (Data Dictionary), ya que definen cómo se almacena y manipula la información en el sistema SAP Cloud.
 
----
+<br/>
+<hr/>
+<br/>
 
 ## 📚 Índice del Capítulo
 
-| Sección                                                                                                | Descripción                                                                            |
-| :----------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
-| [🧭 ¿Qué es el Diccionario de Datos?](#-qué-es-el-diccionario-de-datos)                                | Aprende qué papel cumple el Data Dictionary en ABAP Cloud y por qué es tan importante. |
-| [🧩 Creación de un Dominio en Eclipse](#-creación-de-un-dominio-en-eclipse)                            | Paso a paso para crear un dominio que defina las propiedades técnicas de tus campos.   |
-| [⚙️ Configuración del Dominio](#️-configuración-del-dominio)                                           | Explicación de los parámetros técnicos del dominio: tipo de dato, longitud y valores.  |
-| [🧱 Creación de un Elemento de Datos](#-creación-de-un-elemento-de-datos)                              | Aprende a crear un elemento de datos que use tu dominio o un tipo predefinido.         |
-| [📐 Configurar un Elemento de Datos en ABAP Cloud](#-configurar-un-elemento-de-datos-en-abap-cloud)    | Configura las propiedades técnicas y semánticas de un elemento de datos paso a paso.   |
-| [🎯 Diferencias Clave: Dominio vs Elemento de Datos](#-diferencias-clave-dominio-vs-elemento-de-datos) | Tabla resumida de las diferencias fundamentales entre dominios y elementos de datos.   |
+| Sección                                                                                                     | Descripción                                                                            |
+| :---------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
+| [1. 🧭 ¿Qué es el Diccionario de Datos?](#1--qué-es-el-diccionario-de-datos)                                | Aprende qué papel cumple el Data Dictionary en ABAP Cloud y por qué es tan importante. |
+| [2. 🧩 Creación de un Dominio en Eclipse](#2--creación-de-un-dominio-en-eclipse)                            | Paso a paso para crear un dominio que defina las propiedades técnicas de tus campos.   |
+| [3. ⚙️ Configuración del Dominio](#3-️-configuración-del-dominio)                                           | Explicación de los parámetros técnicos del dominio: tipo de dato, longitud y valores.  |
+| [4. 🧱 Creación de un Elemento de Datos](#4--creación-de-un-elemento-de-datos)                              | Aprende a crear un elemento de datos que use tu dominio o un tipo predefinido.         |
+| [5. 📐 Configurar un Elemento de Datos en ABAP Cloud](#5--configurar-un-elemento-de-datos-en-abap-cloud)    | Configura las propiedades técnicas y semánticas de un elemento de datos paso a paso.   |
+| [6. 🎯 Diferencias Clave: Dominio vs Elemento de Datos](#6--diferencias-clave-dominio-vs-elemento-de-datos) | Tabla resumida de las diferencias fundamentales entre dominios y elementos de datos.   |
 
----
+<br/>
+<hr/>
+<br/>
 
-## 🧭 ¿Qué es el Diccionario de Datos?
+## [1. 🧭 ¿Qué es el Diccionario de Datos?](#-índice-del-capítulo)
 
 El **Data Dictionary** es el lugar donde SAP almacena todos los objetos relacionados con los datos:
 
@@ -34,9 +40,11 @@ El **Data Dictionary** es el lugar donde SAP almacena todos los objetos relacion
 
 💡 En resumen, los dominios definen la “forma” del dato, y los elementos de datos definen su “significado”.
 
----
+<br/>
+<hr/>
+<br/>
 
-## 🧩 Creación de un Dominio en Eclipse
+## [2. 🧩 Creación de un Dominio en Eclipse](#-índice-del-capítulo)
 
 Te muestro a continuación, como crear un dominio en tu proyecto ABAP SAP Cloud. Por ejemplo, yo voy a usar el paquete donde trabajamos el "Hola Mundo" del capitulo 2 (ZBREA_TUTORIAL)
 
@@ -68,9 +76,11 @@ Por eso sale vacio estos campos, solo haz clic en finalizar (finish)
 
 ![Domain](assets/tema-03/img-06.png)
 
----
+<br/>
+<hr/>
+<br/>
 
-## ⚙️ Configuración del Dominio
+## [3. ⚙️ Configuración del Dominio](#-índice-del-capítulo)
 
 > Es importante desde mi punto de vista, conocer bien, como se configura un dominio en ABAP SAP. Analizo campo por campo:
 
@@ -132,9 +142,11 @@ Para finalizar activamos nuestro dominio, haciendo clic en el icono (que parece 
 
 ![activamos](assets/tema-03/img-16.png)
 
----
+<br/>
+<hr/>
+<br/>
 
-## 🧱 Creación de un Elemento de Datos
+## [4. 🧱 Creación de un Elemento de Datos](#-índice-del-capítulo)
 
 > ⚠️ **Nota importante**: Los **dominios** no se usan directamente en programas, clases o tablas. Solo pueden ser utilizados a través de los **elementos de datos**.
 
@@ -164,9 +176,11 @@ Pero tambien podemos crearlo haciando clic sobre la carpeta dictionary: new > da
 
 ![data element plantilla](assets/tema-03/img-22.png)
 
----
+<br/>
+<hr/>
+<br/>
 
-## 📐 Configurar un Elemento de Datos en ABAP Cloud
+## [5. 📐 Configurar un Elemento de Datos en ABAP Cloud](#-índice-del-capítulo)
 
 > Los **elementos de datos** son objetos que definen **características técnicas y semánticas** de un campo, variable o parámetro en ABAP Cloud. Pueden crearse a partir de un **dominio** o de un **tipo predefinido**. Vamos a verlo paso a paso.
 
@@ -189,7 +203,9 @@ En el campo **Domain**, escribe el nombre del dominio que creaste antes, en mi c
 
 > 🧩 Este tipo de elemento **hereda las propiedades técnicas del dominio**, asegurando consistencia y facilidad de mantenimiento.
 
----
+<br/>
+<hr/>
+<br/>
 
 ### 🔹 Elemento de Datos con Tipo Predefinido
 
@@ -224,9 +240,11 @@ Ahora sabes cómo crear elementos de datos en ABAP Cloud y cuándo conviene usar
 
 > 💡 **Tip:** A diferencia de los dominios, los **Elementos de Datos** sí se pueden usar directamente en tus objetos ABAP Cloud, como **clases**, **tablas**, **vistas**, **variables** y **parámetros de métodos**. Esto los hace mucho más flexibles para tus desarrollos.
 
----
+<br/>
+<hr/>
+<br/>
 
-## 🎯 Diferencias Clave: Dominio vs Elemento de Datos
+## [6. 🎯 Diferencias Clave: Dominio vs Elemento de Datos](#-índice-del-capítulo)
 
 Antes de mostrar la comparación, es importante entender que tanto los **dominios** como los **elementos de datos** son piezas fundamentales del Diccionario de Datos en ABAP Cloud.
 
@@ -241,13 +259,17 @@ La siguiente tabla resume las diferencias clave entre ambos:
 | Se usa en tablas y clases    | ❌         | ✅                   |
 | Tiene valores fijos          | ✅         | ❌ (solo los hereda) |
 
----
+<br/>
+<hr/>
+<br/>
 
 ## Ejercicios Propuestos
 
 ( en desarrollo)
 
----
+<br/>
+<hr/>
+<br/>
 
 | [⬅️ Ir al Capítulo 2](../docs/02-HolaMundoABAP.md) | [⬆️ Ir al inicio del capítulo](#-capítulo-3-dominios-y-elementos-de-datos-en-sap-abap-cloud) | [↩️ Volver al inicio del proyecto](../README.md) |
 | :------------------------------------------------: | :------------------------------------------------------------------------------------------: | :----------------------------------------------: |
