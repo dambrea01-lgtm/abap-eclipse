@@ -15,14 +15,15 @@
 
 ## 📚 Índice del Capítulo
 
-| Sección                                                                                                     | Descripción                                                                            |
-| :---------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
-| [1. 🧭 ¿Qué es el Diccionario de Datos?](#1--qué-es-el-diccionario-de-datos)                                | Aprende qué papel cumple el Data Dictionary en ABAP Cloud y por qué es tan importante. |
-| [2. 🧩 Creación de un Dominio en Eclipse](#2--creación-de-un-dominio-en-eclipse)                            | Paso a paso para crear un dominio que defina las propiedades técnicas de tus campos.   |
-| [3. ⚙️ Configuración del Dominio](#3-️-configuración-del-dominio)                                           | Explicación de los parámetros técnicos del dominio: tipo de dato, longitud y valores.  |
-| [4. 🧱 Creación de un Elemento de Datos](#4--creación-de-un-elemento-de-datos)                              | Aprende a crear un elemento de datos que use tu dominio o un tipo predefinido.         |
-| [5. 📐 Configurar un Elemento de Datos en ABAP Cloud](#5--configurar-un-elemento-de-datos-en-abap-cloud)    | Configura las propiedades técnicas y semánticas de un elemento de datos paso a paso.   |
-| [6. 🎯 Diferencias Clave: Dominio vs Elemento de Datos](#6--diferencias-clave-dominio-vs-elemento-de-datos) | Tabla resumida de las diferencias fundamentales entre dominios y elementos de datos.   |
+| Sección                                                                                                     | Descripción                                                                                  |
+| :---------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| [1. 🧭 ¿Qué es el Diccionario de Datos?](#1--qué-es-el-diccionario-de-datos)                                | Aprende qué papel cumple el Data Dictionary en ABAP Cloud y por qué es tan importante.       |
+| [2. 🧩 Creación de un Dominio en Eclipse](#2--creación-de-un-dominio-en-eclipse)                            | Paso a paso para crear un dominio que defina las propiedades técnicas de tus campos.         |
+| [3. ⚙️ Configuración del Dominio](#3-️-configuración-del-dominio)                                           | Explicación de los parámetros técnicos del dominio: tipo de dato, longitud y valores.        |
+| [4. 🧱 Creación de un Elemento de Datos](#4--creación-de-un-elemento-de-datos)                              | Aprende a crear un elemento de datos que use tu dominio o un tipo predefinido.               |
+| [5. 📐 Configurar un Elemento de Datos en ABAP Cloud](#5--configurar-un-elemento-de-datos-en-abap-cloud)    | Configura las propiedades técnicas y semánticas de un elemento de datos paso a paso.         |
+| [6. 🎯 Diferencias Clave: Dominio vs Elemento de Datos](#6--diferencias-clave-dominio-vs-elemento-de-datos) | Tabla resumida de las diferencias fundamentales entre dominios y elementos de datos.         |
+| [7. 📝Ejercicios Propuestos](#7-ejercicios-propuestos)                                                      | Ejercicios propuestos y resueltos de diferentes niveles sobre dominios y elementos de datos. |
 
 <br/>
 <hr/>
@@ -263,9 +264,9 @@ La siguiente tabla resume las diferencias clave entre ambos:
 <hr/>
 <br/>
 
-## Ejercicios Propuestos
+## [7. 📝Ejercicios Propuestos](#-índice-del-capítulo)
 
-**Ejercicio 1 — Nivel Básico: Crear un Dominio y un Elemento de Datos para almacenar un código de país**
+👉 **Ejercicio 1 — Nivel Básico: Crear un Dominio y un Elemento de Datos para almacenar un código de país**
 
 **🎯 Objetivo:** Aprender a crear un dominio simple y un elemento de datos que lo utilice.
 
@@ -273,10 +274,11 @@ La siguiente tabla resume las diferencias clave entre ambos:
 
 **💡 Pistas**: - Usa tipo de dato CHAR con longitud 3. - No hace falta usar valores fijos. - El elemento de datos debe usar el dominio.
 
-<hr/>
-<br/>
+> [🔗 Enlace de ejercicio 1 resuelto paso a paso](../ejercicios/capitulo-03/ejercicio-01.md)
 
-**Ejercicio 2 — Nivel Intermedio: Crear un Dominio con valores fijos y un Elemento de Datos que los herede**
+<hr/>
+
+👉 **Ejercicio 2 — Nivel Intermedio: Crear un Dominio con valores fijos y un Elemento de Datos que los herede**
 
 **🎯 Objetivo:** Aprender a usar valores fijos en un dominio y ver cómo los hereda un elemento de datos.
 
@@ -285,9 +287,8 @@ La siguiente tabla resume las diferencias clave entre ambos:
 **💡 Pistas:** - Usa tipo CHAR(1) - Agrega los valores fijos en la sección Fixed Values - El elemento de datos los heredará automáticamente
 
 <hr/>
-<br/>
 
-**Ejercicio Avanzado — Optimización semántica**
+👉 **Ejercicio 3 — Nivel Avanzado: Optimización semántica**
 
 **🎯 Objetivo:** Crear un elemento de datos con una semántica avanzada y comprender cómo influye en herramientas SAP sin necesidad de tablas.
 

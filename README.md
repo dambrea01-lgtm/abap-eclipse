@@ -43,7 +43,13 @@ Aquí no solo seguiremos un tutorial, sino que **exploraremos juntos cómo traba
   -[🧱 Creación de un Elemento de Datos]
   -[📐 Configurar un Elemento de Datos en ABAP Cloud]
   -[🎯 Diferencias Clave: Dominio vs Elemento de Datos]
-  -[ en desarrollo]
+  -[📝 Ejercicios Propuestos (en desarrollo)]
+```
+
+### 4. 📊 Tablas en SAP ABAP Cloud
+
+```text
+  -[en desarrollo ... ]
 ```
 
 ---
