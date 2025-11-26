@@ -296,6 +296,25 @@ La siguiente tabla resume las diferencias clave entre ambos:
 
 **Pregunta avanzada:** Explica por qué sería mejor usar dominio en este caso y no un tipo predefinido.
 
+<hr/>
+
+👉 **Ejercicio 4: Preparación para el Capítulo 4 (Tablas)**
+
+**🎯 Objetivo:** Crear todos los dominios y elementos de datos necesarios para los campos que formarán parte de la tabla ZBREA_ARTICULOS que desarrollaremos en el capitulo 4.
+
+**📘 Enunciado:** Crea los dominios y elementos de datos necesarios para los siguientes campos que formarán parte de la tabla ZBREA_ARTICULOS en el próximo capitulo.
+
+| Campo (futuro)       | Descripción funcional               | Tipo esperado           |
+| -------------------- | ----------------------------------- | ----------------------- |
+| ID_ARTICULO          | Identificador único del artículo    | Cadena alfanumérica     |
+| NOMBRE_ARTICULO      | Nombre del artículo                 | Texto corto             |
+| PRECIO_ARTICULO      | Precio base del artículo            | Decimal                 |
+| DESCUENTO_ARTICULO   | Porcentaje de descuento             | Decimal con 2 decimales |
+| PRECIOFINAL_ARTICULO | Precio final (precio – descuento)   | Decimal                 |
+| DESCRIPCION_ARTICULO | Descripción visible para el cliente | Texto largo             |
+| VALORACION_ARTICULO  | Valoración de 1 a 5                 | Número entero pequeño   |
+| STOCK_ARTICULO       | Cantidad disponible en inventario   | Número entero           |
+
 <br/>
 <hr/>
 <br/>
