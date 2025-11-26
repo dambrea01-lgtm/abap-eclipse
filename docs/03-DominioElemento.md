@@ -286,6 +286,8 @@ La siguiente tabla resume las diferencias clave entre ambos:
 
 **💡 Pistas:** - Usa tipo CHAR(1) - Agrega los valores fijos en la sección Fixed Values - El elemento de datos los heredará automáticamente
 
+> [🔗 Enlace de ejercicio 2 resuelto paso a paso](../ejercicios/capitulo-03/ejercicio-02.md)
+
 <hr/>
 
 👉 **Ejercicio 3 — Nivel Avanzado: Optimización semántica**
@@ -300,7 +302,7 @@ La siguiente tabla resume las diferencias clave entre ambos:
 
 👉 **Ejercicio 4: Preparación para el Capítulo 4 (Tablas)**
 
-**🎯 Objetivo:** Crear todos los dominios y elementos de datos necesarios para los campos que formarán parte de la tabla ZBREA_ARTICULOS que desarrollaremos en el capitulo 4.
+**🎯 Objetivo:** Crear todos los dominios y elementos de datos para trabajar correctamente con el Data Dictionary antes de pasar a la definición de tablas en ABAP Cloud.
 
 **📘 Enunciado:** Crea los dominios y elementos de datos necesarios para los siguientes campos que formarán parte de la tabla ZBREA_ARTICULOS en el próximo capitulo.
 
