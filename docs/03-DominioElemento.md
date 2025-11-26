@@ -266,7 +266,7 @@ La siguiente tabla resume las diferencias clave entre ambos:
 
 ## [7. 📝Ejercicios Propuestos](#-índice-del-capítulo)
 
-👉 **Ejercicio 1 — Nivel Básico: Crear un Dominio y un Elemento de Datos para almacenar un código de país**
+👉 **Ejercicio 1: Crear un Dominio y un Elemento de Datos para almacenar un código de país**
 
 **🎯 Objetivo:** Aprender a crear un dominio simple y un elemento de datos que lo utilice.
 
@@ -278,7 +278,7 @@ La siguiente tabla resume las diferencias clave entre ambos:
 
 <hr/>
 
-👉 **Ejercicio 2 — Nivel Intermedio: Crear un Dominio con valores fijos y un Elemento de Datos que los herede**
+👉 **Ejercicio 2: Crear un Dominio con valores fijos y un Elemento de Datos que los herede**
 
 **🎯 Objetivo:** Aprender a usar valores fijos en un dominio y ver cómo los hereda un elemento de datos.
 
@@ -290,17 +290,7 @@ La siguiente tabla resume las diferencias clave entre ambos:
 
 <hr/>
 
-👉 **Ejercicio 3 — Nivel Avanzado: Optimización semántica**
-
-**🎯 Objetivo:** Crear un elemento de datos con una semántica avanzada y comprender cómo influye en herramientas SAP sin necesidad de tablas.
-
-**📘 Enunciado:** Crea un dominio ZBREA_DOM_CODAPP, pensado para almacenar un "Código interno de una aplicación". Debe ser case-sensitive. Debe permitir valores entre 5 y 10 caracteres (longitud fija 10). No uses valores fijos. Luego crea un elemento de datos ZBREA_ELEM_CODAPP con las siguientes condiciones: Hereda el dominio. Define textos semánticos completos (Short, Medium, Long). En Heading debe aparecer "Código App". En Documentation agrega una descripción útil para otros desarrolladores.
-
-**Pregunta avanzada:** Explica por qué sería mejor usar dominio en este caso y no un tipo predefinido.
-
-<hr/>
-
-👉 **Ejercicio 4: Preparación para el Capítulo 4 (Tablas)**
+👉 **Ejercicio 3: Preparación para el Capítulo 4 (Tablas)**
 
 **🎯 Objetivo:** Crear todos los dominios y elementos de datos para trabajar correctamente con el Data Dictionary antes de pasar a la definición de tablas en ABAP Cloud.
 

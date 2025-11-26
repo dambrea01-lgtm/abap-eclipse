@@ -1,4 +1,4 @@
-# Ejercicio 1 — Nivel Básico: Crear un Dominio y un Elemento de Datos para almacenar un código de país
+# Ejercicio 1: Crear un Dominio y un Elemento de Datos para almacenar un código de país
 
 | [➡️ Ir al Ejercicio 2](../capitulo-03/ejercicio-02.md) | [↩️ Volver al inicio del Proyecto](../../README.md) | [↩️ Volver al Capítulo 3](../../docs/03-DominioElemento.md) |
 | :----------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------------------: |
@@ -118,5 +118,5 @@ Heading: PAIS → es el texto que verá un usuario en pantallas o formularios.
 
 <br/><hr/><br/>
 
-| [⬆️ Ir al inicio del ejercicio](#ejercicio-1--nivel-básico-crear-un-dominio-y-un-elemento-de-datos-para-almacenar-un-código-de-país) | [➡️ Ir al Ejercicio 2](../capitulo-03/ejercicio-02.md) | [↩️ Volver al inicio del Proyecto](../../README.md) | [↩️ Volver al Capítulo 3](../../docs/03-DominioElemento.md) |
-| :----------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------------------: |
+| [⬆️ Ir al inicio del ejercicio](#ejercicio-1-crear-un-dominio-y-un-elemento-de-datos-para-almacenar-un-código-de-país) | [➡️ Ir al Ejercicio 2](../capitulo-03/ejercicio-02.md) | [↩️ Volver al inicio del Proyecto](../../README.md) | [↩️ Volver al Capítulo 3](../../docs/03-DominioElemento.md) |
+| :--------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------------------: |
