@@ -1,7 +1,7 @@
 # Ejercicio 2: Crear un Dominio con valores fijos y un Elemento de Datos que los herede
 
-| [⬅️ Ir al Ejercicio 1](../capitulo-03/ejercicio-01.md) | [↩️ Volver al inicio del Proyecto](../../README.md) | [↩️ Volver al Capítulo 3](../../docs/03-DominioElemento.md) |
-| :----------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------------------: |
+| [⬅️ Ir al Ejercicio 1](../capitulo-03/ejercicio-01.md) | [➡️ Ir al Ejercicio 3](../capitulo-03/ejercicio-03.md) | [↩️ Volver al inicio del Proyecto](../../README.md) | [↩️ Volver al Capítulo 3](../../docs/03-DominioElemento.md) |
+| :----------------------------------------------------: | :----------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------------------: |
 
 <br/><hr/><br/>
 
@@ -151,5 +151,5 @@ Si en el futuro creamos una tabla como ZBREA_ARTICULOS, podríamos tener un camp
 
 <br/><hr/><br/>
 
-| [⬅️ Ir al Ejercicio 1](../capitulo-03/ejercicio-01.md) | [⬆️ Ir al inicio del ejercicio](#ejercicio-2-crear-un-dominio-con-valores-fijos-y-un-elemento-de-datos-que-los-herede) | [↩️ Volver al inicio del Proyecto](../../README.md) | [↩️ Volver al Capítulo 3](../../docs/03-DominioElemento.md) |
-| :----------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------------------: |
+| [⬅️ Ir al Ejercicio 1](../capitulo-03/ejercicio-01.md) | [⬆️ Ir al inicio del ejercicio](#ejercicio-2-crear-un-dominio-con-valores-fijos-y-un-elemento-de-datos-que-los-herede) | [➡️ Ir al Ejercicio 3](../capitulo-03/ejercicio-03.md) | [↩️ Volver al inicio del Proyecto](../../README.md) | [↩️ Volver al Capítulo 3](../../docs/03-DominioElemento.md) |
+| :----------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------------------: |

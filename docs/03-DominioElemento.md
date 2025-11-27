@@ -302,10 +302,11 @@ La siguiente tabla resume las diferencias clave entre ambos:
 | NOMBRE_ARTICULO      | Nombre del artículo                 | Texto corto             |
 | PRECIO_ARTICULO      | Precio base del artículo            | Decimal                 |
 | DESCUENTO_ARTICULO   | Porcentaje de descuento             | Decimal con 2 decimales |
-| PRECIOFINAL_ARTICULO | Precio final (precio – descuento)   | Decimal                 |
 | DESCRIPCION_ARTICULO | Descripción visible para el cliente | Texto largo             |
 | VALORACION_ARTICULO  | Valoración de 1 a 5                 | Número entero pequeño   |
 | STOCK_ARTICULO       | Cantidad disponible en inventario   | Número entero           |
+
+> [🔗 Enlace de ejercicio 3 resuelto paso a paso](../ejercicios/capitulo-03/ejercicio-03.md)
 
 <br/>
 <hr/>
