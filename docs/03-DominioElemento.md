@@ -1,7 +1,7 @@
 # 📘 Capítulo 3: Dominios y Elementos de Datos en SAP ABAP Cloud
 
-| [⬅️ Ir al Capítulo 2](../docs/02-HolaMundoABAP.md) | [↩️ Volver al inicio del proyecto](../README.md) |
-| :------------------------------------------------: | :----------------------------------------------: |
+| [⬅️ Ir al Capítulo 2](../docs/02-HolaMundoABAP.md) | [➡️ Ir al Capítulo 4](../docs/04-Tablas.md) | [↩️ Volver al inicio del proyecto](../README.md) |
+| :------------------------------------------------: | :-----------------------------------------: | :----------------------------------------------: |
 
 <br/>
 <hr/>
@@ -312,5 +312,5 @@ La siguiente tabla resume las diferencias clave entre ambos:
 <hr/>
 <br/>
 
-| [⬅️ Ir al Capítulo 2](../docs/02-HolaMundoABAP.md) | [⬆️ Ir al inicio del capítulo](#-capítulo-3-dominios-y-elementos-de-datos-en-sap-abap-cloud) | [↩️ Volver al inicio del proyecto](../README.md) |
-| :------------------------------------------------: | :------------------------------------------------------------------------------------------: | :----------------------------------------------: |
+| [⬅️ Ir al Capítulo 2](../docs/02-HolaMundoABAP.md) | [⬆️ Ir al inicio del capítulo](#-capítulo-3-dominios-y-elementos-de-datos-en-sap-abap-cloud) | [➡️ Ir al Capítulo 4](../docs/04-Tablas.md) | [↩️ Volver al inicio del proyecto](../README.md) |
+| :------------------------------------------------: | :------------------------------------------------------------------------------------------: | :-----------------------------------------: | :----------------------------------------------: |
