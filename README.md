@@ -46,7 +46,7 @@ Aquí no solo seguiremos un tutorial, sino que **exploraremos juntos cómo traba
   -[📝 Ejercicios Propuestos (en desarrollo)]
 ```
 
-### 4. 📊 Tablas en SAP ABAP Cloud
+### 4. [📊 Tablas en SAP ABAP Cloud](docs/04-Tablas.md)
 
 ```text
   -[🧱 Creación de la tabla en ABAP Cloud]
